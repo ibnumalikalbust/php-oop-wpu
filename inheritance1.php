@@ -27,7 +27,6 @@ class Product {
 
 $product1 = new Product('Naruto', 'Masashi Kishimoto', 'Shounen Jump', 30000, 100, 0, 'Comic');
 $product2 = new Product('Uncharted', 'Neil Druckmann', 'Sony Computer', 250000, 0, 50, 'Game');
-
 echo $product1->getInfo() . '<br>';
 echo $product2->getInfo() . '<br>';
 

@@ -35,7 +35,6 @@ class Game extends Product {
 
 $product1 = new Comic('Naruto', 'Masashi Kishimoto', 'Shounen Jump', 30000, 100, 0);
 $product2 = new Game('Uncharted', 'Neil Druckmann', 'Sony Computer', 250000, 0, 50);
-
 echo $product1->getInfo() . '<br>';
 echo $product2->getInfo() . '<br>';
 
